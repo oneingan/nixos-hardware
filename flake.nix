@@ -17,9 +17,11 @@
         apple-macbook-air-3 = import ./apple/macbook-air/3;
         apple-macbook-air-4 = import ./apple/macbook-air/4;
         apple-macbook-air-6 = import ./apple/macbook-air/6;
+        apple-macbook-air-7 = import ./apple/macbook-air/7;
         apple-macbook-pro = import ./apple/macbook-pro;
         apple-macbook-pro-8-1 = import ./apple/macbook-pro/8-1;
         apple-macbook-pro-10-1 = import ./apple/macbook-pro/10-1;
+        apple-macbook-pro-11-1 = import ./apple/macbook-pro/11-1;
         apple-macbook-pro-11-5 = import ./apple/macbook-pro/11-5;
         apple-macbook-pro-12-1 = import ./apple/macbook-pro/12-1;
         apple-macbook-pro-14-1 = import ./apple/macbook-pro/14-1;
@@ -37,6 +39,7 @@
         asus-rog-strix-g733qs = import ./asus/rog-strix/g733qs;
         asus-rog-strix-x570e = import ./asus/rog-strix/x570e;
         asus-zenbook-ux371 = import ./asus/zenbook/ux371;
+        asus-zenbook-ux535 = import ./asus/zenbook/ux535;
         asus-zephyrus-ga401 = import ./asus/zephyrus/ga401;
         asus-zephyrus-ga402 = import ./asus/zephyrus/ga402;
         asus-zephyrus-ga402x = import ./asus/zephyrus/ga402x;
@@ -55,6 +58,7 @@
         dell-inspiron-5509 = import ./dell/inspiron/5509;
         dell-inspiron-5515 = import ./dell/inspiron/5515;
         dell-inspiron-7405 = import ./dell/inspiron/7405;
+        dell-inspiron-7460 = import ./dell/inspiron/7460;
         dell-latitude-3340 = import ./dell/latitude/3340;
         dell-latitude-3480 = import ./dell/latitude/3480;
         dell-latitude-5520 = import ./dell/latitude/5520;
@@ -66,11 +70,14 @@
         dell-optiplex-3050 = import ./dell/optiplex/3050;
         dell-poweredge-r7515 = import ./dell/poweredge/r7515;
         dell-precision-3541 = import ./dell/precision/3541;
+        dell-precision-5490 = import ./dell/precision/5490;
         dell-precision-5530 = import ./dell/precision/5530;
+        dell-precision-5560 = import ./dell/precision/5560;
         dell-precision-7520 = import ./dell/precision/7520;
         dell-xps-13-7390 = import ./dell/xps/13-7390;
         dell-xps-13-9300 = import ./dell/xps/13-9300;
         dell-xps-13-9310 = import ./dell/xps/13-9310;
+        dell-xps-13-9315 = import ./dell/xps/13-9315;
         dell-xps-13-9333 = import ./dell/xps/13-9333;
         dell-xps-13-9343 = import ./dell/xps/13-9343;
         dell-xps-13-9350 = import ./dell/xps/13-9350;
@@ -102,6 +109,7 @@
         framework-11th-gen-intel = import ./framework/13-inch/11th-gen-intel;
         framework-12th-gen-intel = import ./framework/13-inch/12th-gen-intel;
         framework-13th-gen-intel = import ./framework/13-inch/13th-gen-intel;
+        framework-intel-core-ultra-series1 = import ./framework/13-inch/intel-core-ultra-series1;
         framework-13-7040-amd = import ./framework/13-inch/7040-amd;
         framework-16-7040-amd = import ./framework/16-inch/7040-amd;
         friendlyarm-nanopc-t4 = import ./friendlyarm/nanopc-t4;
@@ -120,6 +128,7 @@
         hp-elitebook-845g7 = import ./hp/elitebook/845/g7;
         hp-elitebook-845g8 = import ./hp/elitebook/845/g8;
         hp-elitebook-845g9 = import ./hp/elitebook/845/g9;
+        hp-laptop-14s-dq2024nf = import ./hp/laptop/14s-dq2024nf;
         huawei-machc-wa = import ./huawei/machc-wa;
         hp-notebook-14-df0023 = import ./hp/notebook/14-df0023;
         intel-nuc-8i7beh = import ./intel/nuc/8i7beh;
@@ -127,6 +136,7 @@
         lenovo-ideapad-15arh05 = import ./lenovo/ideapad/15arh05;
         lenovo-ideapad-15ach6 = import ./lenovo/ideapad/15ach6;
         lenovo-ideapad-16ach6 = import ./lenovo/ideapad/16ach6;
+        lenovo-ideapad-16ahp9 = import ./lenovo/ideapad/16ahp9;
         lenovo-ideapad-z510 = import ./lenovo/ideapad/z510;
         lenovo-ideapad-slim-5 = import ./lenovo/ideapad/slim-5;
         lenovo-ideapad-s145-15api = import ./lenovo/ideapad/s145-15api;
@@ -142,6 +152,7 @@
         lenovo-legion-16arha7 = import ./lenovo/legion/16arha7;
         lenovo-legion-16ithg6 = import ./lenovo/legion/16ithg6;
         lenovo-legion-16irx8h = import ./lenovo/legion/16irx8h;
+        lenovo-legion-16irx9h = import ./lenovo/legion/16irx9h;
         lenovo-legion-t526amr5 = import ./lenovo/legion/t526amr5;
         lenovo-legion-y530-15ich = import ./lenovo/legion/15ich;
         lenovo-thinkpad = import ./lenovo/thinkpad;
@@ -205,6 +216,7 @@
         lenovo-thinkpad-x1-12th-gen = import ./lenovo/thinkpad/x1/12th-gen;
         lenovo-thinkpad-x1-extreme = import ./lenovo/thinkpad/x1-extreme;
         lenovo-thinkpad-x1-extreme-gen2 = import ./lenovo/thinkpad/x1-extreme/gen2;
+        lenovo-thinkpad-x1-extreme-gen3 = import ./lenovo/thinkpad/x1-extreme/gen3;
         lenovo-thinkpad-x1-extreme-gen4 = import ./lenovo/thinkpad/x1-extreme/gen4;
         lenovo-thinkpad-x1-nano = import ./lenovo/thinkpad/x1-nano;
         lenovo-thinkpad-x1-nano-gen1 = import ./lenovo/thinkpad/x1-nano/gen1;
@@ -239,6 +251,7 @@
         microsoft-surface-pro-3 = import ./microsoft/surface-pro/3;
         microsoft-surface-pro-9 = import ./microsoft/surface-pro/9;
         milkv-pioneer = import ./milkv/pioneer;
+        minisforum-v3 = import ./minisforum/v3;
         morefine-m600 = import ./morefine/m600;
         msi-b350-tomahawk = import ./msi/b350-tomahawk;
         msi-b550-a-pro = import ./msi/b550-a-pro;
@@ -282,8 +295,10 @@
         supermicro-x12scz-tln4f = import ./supermicro/x12scz-tln4f;
         system76 = import ./system76;
         system76-gaze18 = import ./system76/gaze18;
+        system76-galp5-1650 = import ./system76/galp5-1650;
         system76-darp6 = import ./system76/darp6;
         toshiba-swanky = import ./toshiba/swanky;
+        tuxedo-aura-15-gen1 = import ./tuxedo/aura/15/gen1;
         tuxedo-infinitybook-v4 = import ./tuxedo/infinitybook/v4;
         tuxedo-infinitybook-pro14-gen7 = import ./tuxedo/infinitybook/pro14/gen7;
         tuxedo-pulse-14-gen3 = import ./tuxedo/pulse/14/gen3;
@@ -317,7 +332,7 @@
         common-pc = import ./common/pc;
         common-pc-hdd = import ./common/pc/hdd;
         common-pc-laptop = import ./common/pc/laptop;
-        common-pc-laptop-acpi_call = import ./common/pc/laptop/acpi_call.nix;
+        common-pc-laptop-acpi_call = throw "common-pc-laptop-acpi_call has been removed because it is obsolete: https://github.com/NixOS/nixos-hardware/issues/1114";
         common-pc-laptop-hdd = import ./common/pc/laptop/hdd;
         common-pc-laptop-ssd = import ./common/pc/ssd;
         common-pc-ssd = import ./common/pc/ssd;
